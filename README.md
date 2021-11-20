@@ -1,2 +1,2 @@
 # keyboards
-QMK configurationm files for my keyboards
+QMK configuration files for my keyboards
