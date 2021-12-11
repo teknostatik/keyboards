@@ -1,2 +1,1 @@
-# keyboards
-QMK configuration files for my keyboards
+QMK configuration files for my Plancks. Mostly just adds Autoshift.
