@@ -32,9 +32,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define USE_SERIAL_PD2
 #define USE_SSD_I2C
 
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
-
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
 
