@@ -1,4 +1,1 @@
 AUTO_SHIFT_ENABLE = yes
-BOOTLOADER = atmel-dfu
-RGB_MATRIX_ENABLE = yes        # Use RGB matrix
-RGB_MATRIX_DRIVER = IS31FL3733
