@@ -47,4 +47,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
-#define DOUBLE_TAP_SHIFT_TURNS_ON_CAPS_WORD
+
