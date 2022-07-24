@@ -1,10 +1,10 @@
-# Notes on my Corne configuration
+# Notes on my Corne Configuration
 
 _The Corne is a 42-key mechanical keyboard. These are my notes on building and configuring it. Largely for my own benefit._
 
 The Corne I'm using is the RTG model, ordered from [Mechboards](https://mechboards.co.uk/). I am currently part way through building one from scratch as well though.
 
-Currently I'm using the [default black case](https://mechboards.co.uk/products/helidox-corne-case?variant=40336262070477) with Oil king switches, although I do have a fancier case on order.
+Currently I'm using the [default black case](https://mechboards.co.uk/products/helidox-corne-case?variant=40336262070477) with Oil King switches, although I do have a fancier case on order.
 
 This is what my keyboard currently looks like:
 
@@ -16,4 +16,4 @@ I'm close getting the keymap how I want it, although it is still a work in progr
 
 As with all my keyboards, I'm using `AUTO_SHIFT_ENABLE` to remove the need to use a modifier when I am typing normal text.
 
-I type on this at least a day a week and could probably use it full time at this point.
+I have used this periodically for a few months, and it is currently my main keyboard.
