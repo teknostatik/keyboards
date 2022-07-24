@@ -8,6 +8,8 @@ Currently I'm using the [default black case](https://mechboards.co.uk/products/h
 
 This is what my keyboard currently looks like:
 
+![Right hand side of my Corne](./images/lhs.jpg)
+
 ![Right hand side of my Corne](./images/rhs.jpg)
 
 I'm close getting the keymap how I want it, although it is still a work in progress, The defaults are sensible, but I want this to be interchangeable with the Planck and so I have moved a few things around and added macros for things I do often.
