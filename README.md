@@ -1,13 +1,13 @@
-# Ortholinear Keymaps
+# Mechanical Keyboard keymaps
 
-This repository contains the configuration for my ortholinear keyboards. There is nothing revolutionary about these at the moment, but that may change as I become more proficient.
+This repository contains the configuration for my keyboards. There is nothing revolutionary about these at the moment, but that may change as I become more proficient.
 
 Configuration for keyboards I own:
 
-* [Planck](https://github.com/teknostatik/keyboards/tree/main/planck)
-* [Preonic](https://github.com/teknostatik/keyboards/tree/main/preonic)
-* [Corne](https://github.com/teknostatik/keyboards/tree/main/corne)
-
-Coming soon: my first take on a few keyboards I would _like_ to own.
+* [Planck](https://github.com/teknostatik/keyboards/tree/main/planck) - a 40% ortholinear keyboard
+* [Preonic](https://github.com/teknostatik/keyboards/tree/main/preonic) - like a Planck, but with a number row
+* [Corne](https://github.com/teknostatik/keyboards/tree/main/corne) - a 42-key split ortholinear keyboard
+* [HS60](https://github.com/teknostatik/keyboards/tree/main/HHKB) - a 60% keyboard that uses the HHKB layout
+* [DZ60](https://github.com/teknostatik/keyboards/tree/main/dz60rgb_ansi) - a standard 60% keyboard that I don't recommend right now
 
 All very much a work in progress, and should be reviewed carefully before using.
