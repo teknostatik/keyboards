@@ -1,6 +1,7 @@
-The default keymap for HHKB HS60 V2. VIA support disabled.
-==========================================================
+# My keymap for HHKB HS60 V2
 
-![Layout image](https://imgur.com/usbrQWL.png)
+Default layer is normal HHKB with 7U space. Fn layer is used for RGB functions, Volume control and arrow cluster.
 
-Default layer is normal HHKB with 7U space. Fn layer is used for RGB functions, Volume control and arrow cluster
+All I have done is add autoshift and move the modifiers and navigation keys to where I expect them to be.
+
+I will write more about this keyboard once I have done some more experiments.
