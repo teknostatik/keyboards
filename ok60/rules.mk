@@ -1,0 +1,1 @@
+AUTOSHIFT_ENABLE = yes # Enable autoshift
