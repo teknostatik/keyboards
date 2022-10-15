@@ -12,7 +12,7 @@ This is what my keyboard currently looks like:
 
 I'm close to getting the [keymap](https://github.com/teknostatik/keyboards/blob/main/corne/keymap.c) how I want it, although it is still a work in progress, The defaults are sensible, but I want this to be interchangeable with the Planck and so I have moved a few things around and added macros for things I do often.
 
-![Right hand side of my Corne](./images/lhs.jpg)
+![Left hand side of my Corne](./images/lhs.jpg)
 
 On this side there is a number pad on a layer, plus additional functionality hidden below the modifiers.
 
