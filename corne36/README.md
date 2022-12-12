@@ -10,3 +10,6 @@ This is what my keyboard currently looks like:
 
 I'm currently using cheap Pro-micro clones, but I socketed them, so may like this enough to put better controllers in at some point soon. Apart from that, there's not much I would change.
 
+The cheap controllers require QMK being told which bootloader to use. For me that command is:
+
+    qmk flash -kb crkbd/rev1 -km teknostatik36 -bl avrdude
