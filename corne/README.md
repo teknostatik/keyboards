@@ -22,4 +22,13 @@ On this side I have navigation on one layer, and commonly used symbols on anothe
 
 As with all my keyboards, I'm using `AUTO_SHIFT_ENABLE` to remove the need to use a modifier when I am typing normal text.
 
-I have used this periodically for a year, and it's been my main keyboard since June 2022.
+I have used this periodically for over a year, and it's been my main keyboard since June 2022.
+
+If you're using my firmware, the command to flash a Pro-micro or Elite-C would be:
+
+        qmk flash -kb crkbd/rev1 -km teknostatik
+
+For the Elite-Pi (which I will probably use in all my builds going forward) the command would be
+
+        qmk flash -c -kb crkbd/rev1 -km teknostatik -e CONVERT_TO=elite_pi
+
