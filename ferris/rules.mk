@@ -1,3 +1,4 @@
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
-AUTOSHIFT_ENABLE = yes
+AUTO_SHIFT_ENABLE = yes
 BOOTLOADER = atmel-dfu
+SPLIT_KEYBOARD = yes
