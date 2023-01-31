@@ -25,10 +25,10 @@ enum ferris_layers {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT( /* QWERTY */
-    KC_B,    KC_W,    KC_E,    KC_R,    KC_T,            KC_P,    KC_O,  KC_I,    KC_U,   KC_ENT,
+    KC_B,    KC_W,    KC_E,    KC_R,    KC_T,            KC_ENT,    KC_O,  KC_I,    KC_U,   KC_M,
     KC_A, KC_S,    KC_D,    KC_F,    KC_G,            KC_N,    KC_SCLN,  KC_K,    KC_J,   KC_H,
     KC_Z, KC_X,    KC_C,    KC_V,    KC_Q,            KC_SPM2,    KC_Y,  KC_DOT, MT(MOD_LCTL, KC_F5), KC_M,
-                      KC_BSM1, MT(MOD_LALT, KC_TAB), KC_L, KC_COMM
+                      KC_BSM1, MT(MOD_LALT, KC_TAB), KC_L, KC_COMMq
   ),
 
   [_LOWER] = LAYOUT( /* [> LOWER <] */
