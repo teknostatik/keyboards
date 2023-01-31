@@ -14,10 +14,6 @@ enum ferris_layers {
   _RAISE
 };
 
-enum ferris_tap_dances {
-  TD_Q_ESC
-};
-
 #define KC_CTSC RCTL_T(KC_SCLN)
 #define KC_CTLA LCTL_T(KC_A)
 #define KC_LSHZ LSFT_T(KC_Z)
@@ -50,8 +46,3 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   )
 };
 
-// Tap Dance Definitions
-qk_tap_dance_action_t tap_dance_actions[] = {
-    // Tap once for Q, twice for ESC
-    [TD_Q_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_Q, KC_ESC)
-};
