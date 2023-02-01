@@ -15,3 +15,4 @@ And a few I have either built and not used in anger, or am planning to build soo
 * [DZ60](https://github.com/teknostatik/keyboards/tree/main/dz60rgb_ansi) - a standard 60% ANSI keyboard
 * [ok60](https://github.com/teknostatik/keyboards/tree/main/ok60) - a 60% keyboard with a custom ISO keymap. I built this to learn how to solder, and will probably tweak it a lot more soon.
 * [Gherkin](https://github.com/teknostatik/keyboards/tree/main/gherkin) - a 30-key keyboard that I'm working on a custom keymap for
+* [Ferris Sweep](https://github.com/teknostatik/keyboards/tree/main/ferris) - a 34-key split board with an aggressive stagger
