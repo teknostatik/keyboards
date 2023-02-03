@@ -42,7 +42,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #undef DIRECT_PINS_RIGHT
 #define DIRECT_PINS_RIGHT { \
     { F4, F5, F6, F7, D7 }, \
-    { B6, B5, B2, B3, B1 }, \
+    { D0, B5, B2, B3, B1 }, \
     { C6, D4, D1, B4, D3 }, \
     { D0, E6, NO_PIN, NO_PIN, NO_PIN } \
 }
