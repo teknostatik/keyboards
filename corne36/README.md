@@ -6,7 +6,7 @@ The Corne I'm using was ordered from [Mechboards](https://mechboards.co.uk/), an
 
 This is what my keyboard currently looks like:
 
-![Prototype](./images/corne.png)
+![Prototype](./images/corne.jpg)
 
 I'm currently using cheap Pro-micro clones, but I socketed them, so may like this enough to put better controllers in at some point soon. Apart from that, there's not much I would change.
 
