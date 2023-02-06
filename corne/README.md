@@ -6,7 +6,11 @@ The Corne I'm using is the RTG model, ordered from [Mechboards](https://mechboar
 
 Currently I'm using [this case](https://www.etsy.com/uk/listing/1179555093/high-profile-corne-3dp-case) which make it look a lot better, as well as being significantly more stable on my desk. I've also now screwed the original base on to the bottom to give even more stability.
 
-This is what my keyboard currently looks like (or at least one of them):
+This is my daily driver currently:
+
+![black Corne](./images/corne2.jpg)
+
+And this is my first attempt at soldering:
 
 ![both sides](./images/corne.jpg)
 
