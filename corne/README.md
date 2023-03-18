@@ -18,6 +18,10 @@ Generally I'll use _Susuwatari_ keycaps on a black board and _dev/tty_ on a whit
 
 I'm close to getting the [keymap](https://github.com/teknostatik/keyboards/blob/main/corne/keymap.c) how I want it, although it is still a work in progress, The defaults are sensible, but I want this to be interchangeable with the Planck and so I have moved a few things around and added macros for things I do often.
 
+![Layer 0 and 1](./images/corne_keymap_1.png)
+
+![Layer 2 and 3](./images/corne_keymap_2.png)
+
 As with all my keyboards, I'm using `AUTO_SHIFT_ENABLE` to remove the need to use a modifier when I am typing normal text.
 
 I have used this periodically for over a year, and it's been my main keyboard since June 2022.
