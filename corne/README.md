@@ -32,3 +32,6 @@ For the Elite-Pi (which I will probably use in all my builds going forward) the 
 
         qmk flash -c -kb crkbd/rev1 -km teknostatik -e CONVERT_TO=elite_pi
 
+For other Pi-based controllers, such as the [Frood RP2040](https://42keebs.eu/shop/parts/controllers/frood-rp2040-pro-micro-controller/), this command should work:
+
+        qmk flash -c -kb crkbd/rev1 -km teknostatik -e CONVERT_TO=kb2040
