@@ -23,7 +23,7 @@ This is what I have in my `config.h` to remap the pins so that what is in the ke
     #define DIRECT_PINS_RIGHT { \
         { F4, F5, F6, F7, D7 }, \
         { D1, D3, B2, B3, B1 }, \
-        { B4, E6, B5, C6, D0 }, \
+        { B4, E6, C6, B5, D0 }, \
         { B6, D4, NO_PIN, NO_PIN, NO_PIN } \
     }
 
