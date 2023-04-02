@@ -8,6 +8,8 @@ My keymap is mostly the same as the Corne, but I have had to combine two of my u
 
 ![Ferris Sweep keymap](./images/ferris_sweep_keymap.png)
 
+This is currently under very active development, so there is likely to be a mismatch between the image above and the actual keymap.
+
 ## Remapping the pins
 
 This is what I have in my `config.h` to remap the pins so that what is in the keymap is actually what it typed.
@@ -28,3 +30,7 @@ This is what I have in my `config.h` to remap the pins so that what is in the ke
     }
 
 It works well for this board, but should probably be removed for boards from other manufacturers.
+
+## Future plans
+
+I have ordered some PCBs so I can prototype a low-profile version of this. The plan is to try choc switches and keycaps, and forgo a case.
