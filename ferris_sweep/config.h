@@ -32,22 +32,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // The default is 40
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
 
-#undef DIRECT_PINS
-#define DIRECT_PINS { \
-    { D7, F7, F6, F5, F4 }, \
-    { B1, B3, B2, B6, D3 }, \
-    { D1, D0, D4, C6, E6 }, \
-    { B5, B4, NO_PIN, NO_PIN, NO_PIN } \
-}
-#undef DIRECT_PINS_RIGHT
-#define DIRECT_PINS_RIGHT { \
-    { F4, F5, F6, F7, D7 }, \
-    { D1, D3, B2, B3, B1 }, \
-    { B4, E6, C6, B5, D0 }, \
-    { B6, D4, NO_PIN, NO_PIN, NO_PIN } \
-}
-
-
 // Pick good defaults for enabling homerow modifiers
 #define TAPPING_TERM 100
 #define PERMISSIVE_HOLD
