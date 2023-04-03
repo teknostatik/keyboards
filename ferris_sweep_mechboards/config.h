@@ -32,6 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // The default is 40
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
 
+// Fix for a pin mapping error in this iteration of the PCB
+
 #undef DIRECT_PINS
 #define DIRECT_PINS { \
     { D7, F7, F6, F5, F4 }, \

@@ -30,7 +30,3 @@ This is what I have in my `config.h` to remap the pins so that what is in the ke
     }
 
 It works well for this board, but should probably be removed for boards from other manufacturers.
-
-## Future plans
-
-I have ordered some PCBs so I can prototype a low-profile version of this. The plan is to try choc switches and keycaps, and forgo a case.
