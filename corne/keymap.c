@@ -24,7 +24,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
 #define KC_LCAD LCA(KC_DEL)
 #define KC_RCSE RCS(KC_ENT)
-#define KC_LOCK G(KC_L)
 #define KC_RCSD RCS(KC_DOWN)
 #define KC_SCV RCS(KC_V)
 #define KC_SPM2 LT(2, KC_SPC)
