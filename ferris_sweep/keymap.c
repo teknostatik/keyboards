@@ -29,6 +29,8 @@ enum ferris_layers {
 #define KC_RCSE RCS(KC_ENT)
 #define KC_RCSD RCS(KC_DOWN)
 #define KC_SCV RCS(KC_V)
+#define KC_SESC MT(MOD_LCTL, KC_ESC)
+#define KC_SBSL MT(MOD_LSFT, KC_NUBS)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT( /* QWERTY */
