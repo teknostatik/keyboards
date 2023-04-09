@@ -14,6 +14,9 @@ enum ferris_layers {
   _RAISE
 };
 
+// Then we add some definitions so that complicated keymaps can be expressed in fewer characters
+// These are the ones that were already there
+
 #define KC_CTSC RCTL_T(KC_SCLN)
 #define KC_CTLA LCTL_T(KC_A)
 #define KC_LSHZ LSFT_T(KC_Z)
@@ -22,6 +25,9 @@ enum ferris_layers {
 #define KC_BSM1 LT(1, KC_BSPC)
 #define KC_GUTA GUI_T(KC_TAB)
 #define KC_CLGV CTL_T(KC_GRV)
+
+// And these are the ones that I added
+
 #define KC_ALTA MT(MOD_LALT, KC_TAB)
 #define KC_CTF5 MT(MOD_LCTL, KC_F5)
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
@@ -31,6 +37,8 @@ enum ferris_layers {
 #define KC_SCV RCS(KC_V)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
+
+// This is the keymap itself, using the custom definitions
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT( /* QWERTY */
