@@ -19,6 +19,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 #include <stdio.h>
 
+// Add some definitions so that complicated keymaps can be expressed in fewer characters
+
 #define KC_ALTA MT(MOD_LALT, KC_TAB)
 #define KC_CTF5 MT(MOD_LCTL, KC_F5)
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
@@ -30,6 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KC_BSM1 LT(1, KC_BSPC)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
+
+// This is the keymap itself, using the custom definitions
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [0] = LAYOUT_split_3x6_3(
@@ -81,6 +85,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       //`--------------------------'  `--------------------------'
 )
 };
+
+// This is the code to make the OLEDs work
 
 #ifdef OLED_ENABLE
 oled_rotation_t oled_init_user(oled_rotation_t rotation) {
