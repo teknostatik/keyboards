@@ -1,12 +1,9 @@
-// this is the style you want to emulate.
-// This is the canonical layout file for the Quantum project. If you want to add another keyboard,
+// QMK firmware for tne Ferris Sweep
 
 #include QMK_KEYBOARD_H
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
-// The underscores don't mean anything - you can have a layer called STUFF or any other name.
-// Layer names don't all need to be of the same length, obviously, and you can also skip them
-// entirely and just use numbers.
+// The underscores don't mean anything.
 
 enum ferris_layers {
   _QWERTY,
@@ -14,20 +11,20 @@ enum ferris_layers {
   _RAISE
 };
 
-// Then we add some definitions so that complicated keymaps can be expressed in fewer characters
-// These are the ones that were already there
+// Then we add some definitions so that complicated keymaps can be expressed in fewer characters. 
+// These are ones I don't use but that other people have found useful:
 
 #define KC_CTSC RCTL_T(KC_SCLN)
 #define KC_CTLA LCTL_T(KC_A)
 #define KC_LSHZ LSFT_T(KC_Z)
 #define KC_RLSH RSFT_T(KC_SLSH)
-#define KC_SPM2 LT(2, KC_SPC)
-#define KC_BSM1 LT(1, KC_BSPC)
 #define KC_GUTA GUI_T(KC_TAB)
 #define KC_CLGV CTL_T(KC_GRV)
 
-// And these are the ones that I added
+// And these are the ones that I use in my keymap:
 
+#define KC_SPM2 LT(2, KC_SPC)
+#define KC_BSM1 LT(1, KC_BSPC)
 #define KC_ALTA MT(MOD_LALT, KC_TAB)
 #define KC_CTF5 MT(MOD_LCTL, KC_F5)
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
@@ -38,7 +35,7 @@ enum ferris_layers {
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
 
-// This is the keymap itself, using the custom definitions
+// This is the keymap itself, using the custom definitions:
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT( /* QWERTY */
