@@ -24,9 +24,9 @@ enum ferris_layers {
 // And these are the ones that I use in my keymap:
 
 #define KC_SPM2 LT(2, KC_SPC)
-#define KC_BSM1 LT(1, KC_BSPC)
-#define KC_ALTA MT(MOD_LALT, KC_TAB)
-#define KC_CTF5 MT(MOD_LCTL, KC_F5)
+#define KC_TBM1 LT(1, KC_TAB)
+#define KC_ABSP MT(MOD_LALT, KC_BSPC)
+#define KC_CTSP MT(MOD_LCTL, KC_SPC)
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
 #define KC_LCAD LCA(KC_DEL)
 #define KC_RCSE RCS(KC_ENT)
@@ -42,7 +42,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_Q, KC_W,    KC_E,    KC_R,    KC_T,            KC_Y,    KC_U,  KC_I,    KC_O,   KC_P,
     KC_A, KC_S,    KC_D,    KC_F,    KC_G,            KC_H,    KC_J,  KC_K,    KC_L,   KC_QUOT,
     KC_Z, KC_X,    KC_C,    KC_V,    KC_B,            KC_N,    KC_M,  KC_COMM, KC_DOT, KC_SHEN,
-                            KC_ALTA, KC_BSM1,         KC_SPM2, KC_CTF5
+                            KC_TBM1, KC_ABSP,         KC_CTSP, MO(2)
   ),
 
   [_LOWER] = LAYOUT( /* [> LOWER <] */
@@ -56,6 +56,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_1,  KC_2,   KC_3,    KC_TRNS, KC_PSCR,      KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN,
     KC_4,  KC_5,   KC_6,    KC_TRNS, KC_SCV,       KC_TRNS, KC_MINS, KC_EQL,  KC_LBRC, KC_RBRC,
     KC_7,  KC_8,   KC_9,    KC_0,    KC_RCSD,      KC_TRNS, KC_NUHS, KC_NUBS, KC_TRNS, QK_BOOT,
-                            KC_TRNS, KC_TRNS,      KC_TRNS, KC_LGUI
+                            KC_TRNS, KC_TRNS,      KC_LGUI, KC_TRNS
   )
 };
