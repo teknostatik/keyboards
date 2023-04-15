@@ -1,4 +1,4 @@
-// QMK firmware for tne Ferris Sweep
+// QMK firmware for the Ferris Sweep
 
 #include QMK_KEYBOARD_H
 
@@ -20,10 +20,10 @@ enum ferris_layers {
 #define KC_RLSH RSFT_T(KC_SLSH)
 #define KC_GUTA GUI_T(KC_TAB)
 #define KC_CLGV CTL_T(KC_GRV)
+#define KC_SPM2 LT(2, KC_SPC)
 
 // And these are the ones that I use in my keymap:
 
-#define KC_SPM2 LT(2, KC_SPC)
 #define KC_TBM1 LT(1, KC_TAB)
 #define KC_ABSP MT(MOD_LALT, KC_BSPC)
 #define KC_CTSP MT(MOD_LCTL, KC_SPC)
