@@ -10,6 +10,6 @@ This is currently under very active development, so there is likely to be a mism
 
 I've also got a [custom build](https://github.com/teknostatik/keyboards/tree/main/ferris_sweep_mechboards) that works with the version of the Ferris Sweep from Mechboards.
 
-## Future plans
+## Build guide
 
-I have ordered some PCBs so I can prototype a low-profile version of this. The plan is to try choc switches and keycaps, and forgo a case.
+I've been building a few of these with low profile switches and (mostly) blank key caps. I'm working on a [build guide](https://github.com/teknostatik/keyboards/blob/main/ferris_sweep/ferris_sweep_build_guide.md) which i will add to as I learn more.
