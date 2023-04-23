@@ -13,3 +13,6 @@ I've also got a [custom build](https://github.com/teknostatik/keyboards/tree/mai
 ## Build guide
 
 I've been building a few of these with low profile switches and (mostly) blank key caps. I'm working on a [build guide](https://github.com/teknostatik/keyboards/blob/main/ferris_sweep/ferris_sweep_build_guide.md) which i will add to as I learn more.
+
+
+![Ferris Sweep](./images/ferris_sweep.jpg)
