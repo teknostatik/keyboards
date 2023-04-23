@@ -35,7 +35,7 @@ If you get the message `Waiting for USB serial port - reset your controller now 
 ### Elite-Pi
 
     qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=elite_pi --bootloader uf2-split-left
-    qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=elite_pi --bootloader uf2-split-left
+    qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=elite_pi --bootloader uf2-split-right
 
 Once you have done this then label the controllers so you are absolutely sure which is which.
 
