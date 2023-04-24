@@ -1,5 +1,6 @@
 // Copyright 2022 Diego Palacios (@diepala)
 // SPDX-License-Identifier: GPL-2.0
+#include QMK_KEYBOARD_H
 
 // Add some definitions so that complicated keymaps can be expressed in fewer characters
 
