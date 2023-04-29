@@ -25,8 +25,8 @@ Firstly test that your firmware compiles:
 
 Then flash each controller in turn:
 
-    qmk flash -kb cantor -km teknostatik --bootloader stm32-dfu-split-left
-    qmk flash -kb cantor -km teknostatik --bootloader stm32-dfu-split-right
+    qmk flash -kb cantor -km teknostatik --bootloader dfu-util-split-left
+    qmk flash -kb cantor -km teknostatik --bootloader dfu-util-split-right
 
 If you get the message `Waiting for USB serial port - reset your controller now (Ctrl+C to cancel)` you will need to bridge BOOT0 to VCC (via BOOT0 button or jumper), short RESET to GND (via RESET button or jumper), and then let go of the BOOT0 bridge.
 
