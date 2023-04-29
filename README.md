@@ -16,7 +16,5 @@ This repository contains the QMK keymaps for my keyboards.
 
 ## Work in progress
 
-* [DZ60](https://github.com/teknostatik/keyboards/tree/main/dz60rgb_ansi) - a standard 60% ANSI keyboard
-* [ok60](https://github.com/teknostatik/keyboards/tree/main/ok60) - a 60% keyboard with a custom ISO keymap. I built this to learn how to solder, and will probably tweak it a lot more soon.
 * [Gherkin](https://github.com/teknostatik/keyboards/tree/main/gherkin) - a 30-key keyboard that I'm working on a custom keymap for
 * [Cantor](https://github.com/teknostatik/keyboards/tree/main/cantor) - a low-profile staggered keyboard with the same layout as the Corne. I've not built this one yet, but the firmware does compile.
