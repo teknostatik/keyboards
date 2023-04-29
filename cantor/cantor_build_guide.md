@@ -2,7 +2,7 @@
 
 ## Parts list
 
-This is what we need to build a Ferris Sweep:
+This is what we need to build a Cantor:
 
 * [PCB](https://github.com/diepala/cantor/releases/tag/rev1.0)
 * Two STM32F401CC blackpill microcontrollers and sockets 
