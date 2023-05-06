@@ -13,7 +13,7 @@ This is what we need to build a Cantor:
 * USB-C cable)
 * 10-12 rubber feet
 
-All the example code in this guide will be using [my keymap](https://github.com/teknostatik/keyboards/tree/main/cantor). This is exactly the same keymap as I use on my Corne, which should make this a very familiar typing experience from the outset. The only thing I can't get working is autoshift, but as I have two shift keys on this layout then I just have to revert to using them.
+All the example code in this guide will be using [my keymap](https://github.com/teknostatik/keyboards/tree/main/cantor). This is exactly the same keymap as I use on my Corne, which should make this a very familiar typing experience from the outset. The only thing I can't get working is autoshift, but as I've now flashed it with Vial and validated that autoshift works fine then I just need to do some debugging of my code and I'm sure I'll figure it out.
 
 ## Flashing Controllers
 
