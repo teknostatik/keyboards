@@ -21,6 +21,7 @@
 #define IGNORE_MOD_TAP_INTERRUPT
 #define TAPPING_FORCE_HOLD
 
+#define AUTO_SHIFT_TIMEOUT 150
 /*
  * Feature disable options
  *  These options are also useful to firmware size reduction.
