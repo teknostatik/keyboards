@@ -32,8 +32,6 @@ qk_tap_dance_action_t tap_dance_actions[] = {
 [TD_MAGIC_ALT] = ACTION_TAP_DANCE_DOUBLE(KC_LALT, C(KC_TAB)),
 // Control + backspace on a double click
 [TD_MAGIC_BS] = ACTION_TAP_DANCE_DOUBLE(KC_BSPC, C(KC_BSPC)),
- 	// raise and save
-[TD_RSESAV] = ACTION_TAP_DANCE_DOUBLE(MO(2), C(KC_S))
 };
 
 // Add some definitions so that complicated keymaps can be expressed in fewer characters
@@ -61,7 +59,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_SBSL,   KC_Z,   KC_X,   KC_C,    KC_V,  KC_B,                           KC_N,    KC_M,    KC_COMM, KC_DOT, KC_SLSH, KC_SHEN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                            TD(TD_MAGIC_ALT), MO(1), TD(TD_MAGIC_BS),                           KC_SPC,  TD(TD_RSESAV),   KC_CTF5
+                            TD(TD_MAGIC_ALT), MO(1), TD(TD_MAGIC_BS),                           KC_SPC,  MO(2),   KC_CTF5
                                       //`--------------------------'  `--------------------------'
 
 ),
