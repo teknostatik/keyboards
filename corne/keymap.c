@@ -19,21 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include QMK_KEYBOARD_H
 #include <stdio.h>
 
-// Tap Dance declarations
-enum {
-    TD_MAGIC_ALT,
-    TD_MAGIC_BS,
-    TD_RSESAV
-};
-
-// Tap Dance definitions
-qk_tap_dance_action_t tap_dance_actions[] = {
-// Magic alt
-[TD_MAGIC_ALT] = ACTION_TAP_DANCE_DOUBLE(KC_LALT, C(KC_TAB)),
-// Control + backspace on a double click
-[TD_MAGIC_BS] = ACTION_TAP_DANCE_DOUBLE(KC_BSPC, C(KC_BSPC)),
-};
-
 // Add some definitions so that complicated keymaps can be expressed in fewer characters
 
 #define KC_ALTA MT(MOD_LALT, KC_TAB)
@@ -59,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_SBSL,   KC_Z,   KC_X,   KC_C,    KC_V,  KC_B,                           KC_N,    KC_M,    KC_COMM, KC_DOT, KC_SLSH, KC_SHEN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                            TD(TD_MAGIC_ALT), MO(1), TD(TD_MAGIC_BS),                           KC_SPC,  MO(2),   KC_CTF5
+                            KC_ALTA, MO(1), KC_BSPC,                           KC_SPC,  MO(2),   KC_CTF5
                                       //`--------------------------'  `--------------------------'
 
 ),
