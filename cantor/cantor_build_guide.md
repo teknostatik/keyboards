@@ -13,7 +13,7 @@ This is what we need to build a Cantor:
 * USB-C cable)
 * 10-12 rubber feet
 
-All the example code in this guide will be using [my keymap](https://github.com/teknostatik/keyboards/tree/main/cantor). This is exactly the same keymap as I use on my Corne, which should make this a very familiar typing experience from the outset. The only thing I can't get working is autoshift, but as I've now flashed it with Vial and validated that autoshift works fine then I just need to do some debugging of my code and I'm sure I'll figure it out.
+All the example code in this guide will be assuming that the [Vial firmware](https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/cantor) will be used. it requires having a working installation of the `vial-qmk` github repository.
 
 ## Flashing Controllers
 
@@ -21,12 +21,12 @@ Flash each controller to test they work, and to define which controller belongs 
 
 Firstly test that your firmware compiles:
 
-    qmk compile -kb cantor -km teknostatik
+    qmk compile -kb cantor -km vial
 
 Then flash each controller in turn:
 
-    qmk flash -kb cantor -km teknostatik --bootloader dfu-util-split-left
-    qmk flash -kb cantor -km teknostatik --bootloader dfu-util-split-right
+    qmk flash -kb cantor -km vial --bootloader dfu-util-split-left
+    qmk flash -kb cantor -km vial --bootloader dfu-util-split-right
 
 If you get the message `Waiting for USB serial port - reset your controller now (Ctrl+C to cancel)` you will need to bridge BOOT0 to VCC (via BOOT0 button or jumper), short RESET to GND (via RESET button or jumper), and then let go of the BOOT0 bridge.
 
