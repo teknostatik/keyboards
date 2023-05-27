@@ -53,9 +53,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
   if (index == 0) { /* First encoder */
     /* And with another if statement we can check the direction. */
  if (clockwise) {
-  tap_code(KC_VOLU);
-} else {
   tap_code(KC_VOLD);
+} else {
+  tap_code(KC_VOLU);
 }
   /* You can copy the code and change the index for every encoder you have. Most
      keyboards will only have two, so this piece of code will suffice. */
