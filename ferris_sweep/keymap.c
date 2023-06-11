@@ -11,6 +11,15 @@ enum ferris_layers {
   _RAISE
 };
 
+// Then we define some combos
+
+const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(combo1, KC_LALT),
+    COMBO(combo2, KC_LCTL),
+};
+
 // Then we add some definitions so that complicated keymaps can be expressed in fewer characters. 
 // These are ones I don't use but that other people have found useful:
 
@@ -42,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_Q, KC_W,    KC_E,    KC_R,    KC_T,            KC_Y,    KC_U,  KC_I,    KC_O,   KC_P,
     KC_A, KC_S,    KC_D,    KC_F,    KC_G,            KC_H,    KC_J,  KC_K,    KC_L,   KC_QUOT,
     KC_Z, KC_X,    KC_C,    KC_V,    KC_B,            KC_N,    KC_M,  KC_COMM, KC_DOT, KC_SHEN,
-                            KC_TBM1, KC_ABSP,         KC_CTSP, MO(2)
+                            KC_TBM1, KC_BSPC,         KC_CTSP, MO(2)
   ),
 
   [_LOWER] = LAYOUT( /* [> LOWER <] */
