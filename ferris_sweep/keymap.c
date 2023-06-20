@@ -45,7 +45,7 @@ combo_t key_combos[] = {
 #define KC_SCV RCS(KC_V)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
-#define KC_ENM2 MT(2, KC_ENT)
+#define KC_ENM2 LT(2, KC_ENT)
 // This is the keymap itself, using the custom definitions:
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
