@@ -15,6 +15,19 @@
 #define KC_BSM1 LT(1, KC_BSPC)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
+#define KC_ENM2 LT(2, KC_ENT)
+#define KC_TBM1 LT(1, KC_TAB)
+
+// Then we define some combos
+
+const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM combo3[] = {KC_P, KC_QUOT, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(combo1, KC_LALT),
+    COMBO(combo2, KC_LCTL),
+    COMBO(combo3, KC_BSPC),
+};
 
 // This is the keymap itself, using the custom definitions
 
@@ -27,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_SBSL,   KC_Z,   KC_X,   KC_C,    KC_V,  KC_B,                           KC_N,    KC_M,    KC_COMM, KC_DOT, KC_SLSH, KC_SHEN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                            KC_ALTA, MO(1), KC_BSPC,                           KC_SPC,  MO(2),   KC_CTF5
+                          KC_ALTA, KC_TBM1, KC_BSPC,                           KC_SPC,  KC_ENM2,   KC_CTF5
                                       //`--------------------------'  `--------------------------'
 
 ),
