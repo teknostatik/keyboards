@@ -5,9 +5,9 @@
 This is what we need to build a Ferris Sweep:
 
 * [Sweep High PCB](https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20High)
-* Two controllers and sockets (this guide assumes Pro-micro, but there are plenty of better options now and I've now also done this build using the Elite-Pi controllers)
-* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense, but you will end up paying more for switches and keycaps. Choc v2 with blank keycaps actually works out the most economical in the end.
-* 34 1U keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you, especially if you go with a switch that works with MX keycaps.
+* Two controllers and sockets.
+* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense, but you will end up paying more for switches and keycaps. Choc v2 with blank keycaps may work out the most economical in the end.
+* 34 1U keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you.
 * 2 TRRS jacks (PJ-320A)
 * TRRS cable
 * Cable to match controllers chosen (almost certainly a USB-C cable)
@@ -36,6 +36,11 @@ If you get the message `Waiting for USB serial port - reset your controller now 
 
     qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=elite_pi --bootloader uf2-split-left
     qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=elite_pi --bootloader uf2-split-right
+
+### Frood
+
+    qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-left
+    qmk flash -c -kb ferris/sweep -km teknostatik -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-right
 
 Once you have done this then label the controllers so you are absolutely sure which is which.
 
