@@ -1,5 +1,15 @@
 #include QMK_KEYBOARD_H
 
+// Then we define some combos
+
+const uint16_t PROGMEM combo1[] = {KC_N, KC_M, COMBO_END};
+const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM combo3[] = {KC_P, KC_ENT, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(combo1, KC_LALT),
+    COMBO(combo2, KC_LCTL),
+    COMBO(combo3, KC_BSPC),
+
 #define FN1_SPC     LT(1, KC_SPC)
 #define FN2_BSPC    LT(2, KC_BSPC)
 #define FN3_C       LT(3, KC_C)
