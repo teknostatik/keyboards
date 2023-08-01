@@ -9,6 +9,7 @@ combo_t key_combos[] = {
     COMBO(combo1, KC_LALT),
     COMBO(combo2, KC_LCTL),
     COMBO(combo3, KC_BSPC),
+    };
 
 #define FN1_SPC LT(1, KC_SPC)
 #define FN2_BSPC LT(2, KC_BSPC)
@@ -55,7 +56,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [5] = LAYOUT_ortho_3x10(
     KC_CALC, KC_WHOM, KC_MAIL, KC_MYCM, _______, _______, _______, _______, _______, KC_PSCR,
-    _______, _______, _______, _______, _______, _______, _______, _______, BL_DEC,  KC_TRNS,
+    _______, _______, _______, _______, _______, _______, _______, _______, KC_TRNS,  KC_TRNS,
     _______, _______, _______, _______, QK_BOOT,   _______, _______, _______, _______, _______
   )
 
