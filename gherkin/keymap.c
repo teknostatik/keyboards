@@ -10,16 +10,16 @@ combo_t key_combos[] = {
     COMBO(combo2, KC_LCTL),
     COMBO(combo3, KC_BSPC),
 
-#define FN1_SPC     LT(1, KC_SPC)
-#define FN2_BSPC    LT(2, KC_BSPC)
-#define FN3_C       LT(3, KC_C)
-#define FN4_V       LT(4, KC_V)
-#define FN5_B       LT(5, KC_B)
-#define CTL_Z       CTL_T(KC_Z)
-#define ALT_X       ALT_T(KC_X)
-#define ALT_N       ALT_T(KC_N)
-#define CTL_M       RCTL_T(KC_M)
-#define SFT_ENT     RSFT_T(KC_ENT)
+#define FN1_SPC LT(1, KC_SPC)
+#define FN2_BSPC LT(2, KC_BSPC)
+#define FN3_C LT(3, KC_C)
+#define FN4_V LT(4, KC_V)
+#define FN5_B LT(5, KC_B)
+#define CTL_Z CTL_T(KC_Z)
+#define ALT_X ALT_T(KC_X)
+#define ALT_N ALT_T(KC_N)
+#define CTL_M RCTL_T(KC_M)
+#define SFT_ENT RSFT_T(KC_ENT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [5] = LAYOUT_ortho_3x10(
     KC_CALC, KC_WHOM, KC_MAIL, KC_MYCM, _______, _______, _______, _______, _______, KC_PSCR,
-    _______, _______, _______, _______, _______, _______, _______, _______, BL_DEC,  BL_INC,
+    _______, _______, _______, _______, _______, _______, _______, _______, BL_DEC,  KC_TRNS,
     _______, _______, _______, _______, QK_BOOT,   _______, _______, _______, _______, _______
   )
 
