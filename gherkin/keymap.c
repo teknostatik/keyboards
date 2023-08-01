@@ -4,11 +4,9 @@
 
 const uint16_t PROGMEM combo1[] = {KC_N, KC_M, COMBO_END};
 const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
-const uint16_t PROGMEM combo3[] = {KC_P, KC_ENT, COMBO_END};
 combo_t key_combos[] = {
     COMBO(combo1, KC_LALT),
     COMBO(combo2, KC_LCTL),
-    COMBO(combo3, KC_BSPC),
     };
 
 #define FN1_SPC LT(1, KC_SPC)
@@ -25,9 +23,9 @@ combo_t key_combos[] = {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [0] = LAYOUT_ortho_3x10(
-    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,
-    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    SFT_ENT,
-    CTL_Z,   ALT_X,   FN3_C,   FN4_V,   FN2_BSPC,FN1_SPC, FN5_B,   ALT_N,   CTL_M,   KC_DOT
+    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,  KC_P,
+    KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,  SFT_ENT,
+    CTL_Z,   ALT_X,   FN3_C,   FN4_V,   FN2_BSPC,FN1_SPC, FN5_B,   KC_N,   KC_M,   KC_DOT
   ),
 
   [1] = LAYOUT_ortho_3x10(
