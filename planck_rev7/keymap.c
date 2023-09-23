@@ -20,6 +20,18 @@ enum planck_layers { _QWERTY, _COLEMAK, _DVORAK, _LOWER, _RAISE, _PLOVER, _ADJUS
 
 enum planck_keycodes { QWERTY = SAFE_RANGE, COLEMAK, DVORAK, PLOVER, BACKLIT, EXT_PLV };
 
+
+// Then we define some combos
+
+const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+const uint16_t PROGMEM combo3[] = {KC_P, KC_QUOT, COMBO_END};
+combo_t key_combos[] = {
+    COMBO(combo1, KC_LALT),
+    COMBO(combo2, KC_LCTL),
+    COMBO(combo3, KC_BSPC),
+};
+
 // Then we add some definitions so that complicated keymaps can be expressed in fewer characters. 
 
 #define KC_TBM1 LT(1, KC_TAB)
@@ -54,7 +66,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_Y,    KC_U,    KC_I,    KC_O,  KC_P,   KC_BSPC,
     KC_SESC,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
     KC_SBSL, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_SHEN,
-    KC_LEFT, KC_RGHT, KC_WAST, KC_ABSP, LOWER, KC_SPC, KC_SPC, RAISE, KC_CTF5, KC_LALT, KC_DOWN, KC_UP
+    KC_LEFT, KC_RGHT, KC_WAST, KC_ABSP, LOWER, KC_BSPC, KC_SPC, RAISE, KC_CTF5, KC_LALT, KC_DOWN, KC_UP
 ),
 
 /* Colemak
