@@ -1,5 +1,7 @@
 # Cantor Build Guide
 
+The Cantor is a 42-key split mechanical keyboard with an aggressive stagger. I have built a few of these, both for my own use and to sell.
+
 ## Parts list
 
 This is what we need to build a Cantor:
