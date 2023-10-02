@@ -13,7 +13,7 @@ This is what we need to build a Cantor:
 * USB-C cable
 * 10-12 rubber feet
 
-All the example code in this guide will be assuming that the [Vial firmware](https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/cantor) will be used. it requires having a working installation of the `vial-qmk` github repository.
+All the example code in this guide will be assuming that the [Vial firmware](https://github.com/vial-kb/vial-qmk/tree/vial/keyboards/ferris/sweep) will be used. It requires having a working installation of the [`vial-qmk`](https://github.com/vial-kb/vial-qmk) github repository.
 
 ## Flashing Controllers
 
