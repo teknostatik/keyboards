@@ -7,10 +7,10 @@
 #define _ADJUST 3
 
 enum custom_keycodes {
-  QWERTY = SAFE_RANGE,
-  LOWER,
-  RAISE,
-  ADJUST,
+QWERTY = SAFE_RANGE,
+LOWER,
+RAISE,
+ADJUST,
 };
 
 // Add some definitions so that complicated keymaps can be expressed in fewer characters
@@ -53,7 +53,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_SBSL, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_HOME,          KC_END,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_SHEN,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    KC_ALTA, TBM1, KC_BSPC,                    KC_SPC,  KC_ENM2,   KC_LCTL
+                                    KC_ALTA, KC_TBM1, KC_BSPC,                    KC_SPC,  KC_ENM2,   KC_LCTL
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
