@@ -22,12 +22,12 @@ ADJUST,
 #define KC_RCSE RCS(KC_ENT)
 #define KC_RCSD RCS(KC_DOWN)
 #define KC_SCV RCS(KC_V)
-#define KC_SPM2 LT(2, KC_SPC)
-#define KC_BSM1 LT(1, KC_BSPC)
+#define KC_SPM2 LT(RAISE, KC_SPC)
+#define KC_BSM1 LT(LOWER, KC_BSPC)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
-#define KC_ENM2 LT(2, KC_ENT)
-#define KC_TBM1 LT(1, KC_TAB)
+#define KC_ENM2 LT(RAISE, KC_ENT)
+#define KC_TBM1 LT(LOWER, KC_TAB)
 
 // Then we define some combos
 
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT, KC_F9, KC_F10, KC_F11,  KC_F12, G(KC_L), KC_LPRN,          KC_RPRN, KC_HOME, KC_PGDN, KC_PGUP, KC_END, KC_SHEN,  KC_F11,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    KC_LALT, _______,KC_ENT,                    KC_ENT,   MO(3), KC_LGUI
+                                    KC_LALT, _______,KC_ENT,                    KC_ENT,  ADJUST, KC_LGUI
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      RCS(KC_DOWN), KC_7, KC_8, KC_9, KC_0, KC_RCSD,  KC_LPRN,          _______,  KC_TRNS, KC_NUHS, KC_NUBS, KC_WBAK, KC_WFWD, KC_BTN1,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
-                                    KC_LALT,   MO(3),  KC_SPC,                     KC_ENT, _______, KC_LGUI
+                                    KC_LALT,  ADJUST,  KC_SPC,                     KC_ENT, _______, KC_LGUI
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
   ),
 
