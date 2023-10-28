@@ -16,14 +16,11 @@ ADJUST,
 // Add some definitions so that complicated keymaps can be expressed in fewer characters
 
 #define KC_ALTA MT(MOD_LALT, KC_TAB)
-#define KC_CTF5 MT(MOD_LCTL, KC_F5)
 #define KC_SHEN MT(MOD_RSFT, KC_ENT)
 #define KC_LCAD LCA(KC_DEL)
 #define KC_RCSE RCS(KC_ENT)
 #define KC_RCSD RCS(KC_DOWN)
 #define KC_SCV RCS(KC_V)
-#define KC_SPM2 LT(RAISE, KC_SPC)
-#define KC_BSM1 LT(LOWER, KC_BSPC)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
 #define KC_SBSL MT(MOD_LSFT, KC_NUBS)
 #define KC_ENM2 LT(RAISE, KC_ENT)
@@ -31,14 +28,12 @@ ADJUST,
 
 // Then we define some combos
 
-const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
-const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
-const uint16_t PROGMEM combo3[] = {KC_P, KC_QUOT, COMBO_END};
-combo_t key_combos[] = {
-    COMBO(combo1, KC_LALT),
-    COMBO(combo2, KC_LCTL),
-    COMBO(combo3, KC_BSPC),
-};
+//const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
+//const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+//combo_t key_combos[] = {
+ //   COMBO(combo1, KC_LALT),
+   // COMBO(combo2, KC_LCTL),
+//};
 
 // This is the keymap itself, using the custom definitions
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -75,7 +70,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_F12,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                              KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_GRV, KC_1,   KC_2, KC_3,  KC_TRNS, KC_PSCR                             KC_TRNS, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL,
+     KC_GRV, KC_1,   KC_2, KC_3,  KC_TRNS, KC_PSCR,                             KC_TRNS, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, KC_DEL,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      RCS(KC_V), KC_4, KC_5, KC_6, KC_TRNS, KC_SCV,                            KC_TRNS, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC,  KC_GRV,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
