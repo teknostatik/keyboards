@@ -28,12 +28,12 @@ ADJUST,
 
 // Then we define some combos
 
-//const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
-//const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
-//combo_t key_combos[] = {
- //   COMBO(combo1, KC_LALT),
-   // COMBO(combo2, KC_LCTL),
-//};
+const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
+const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
+combo_t key_combos[] = {
+COMBO(combo1, KC_LALT),
+COMBO(combo2, KC_LCTL),
+};
 
 // This is the keymap itself, using the custom definitions
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
