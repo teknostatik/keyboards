@@ -6,7 +6,7 @@ This is what we need to build a Ferris Sweep:
 
 * [Sweep High PCB](https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20High)
 * Two controllers and sockets.
-* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense, but you will end up paying more for switches and keycaps. Choc v2 with blank keycaps may work out the most economical in the end.
+* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense, and Choc v1 are definitely now my switch of choice. 
 * 34 1U keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you.
 * 2 TRRS jacks (PJ-320A)
 * TRRS cable
