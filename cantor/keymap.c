@@ -23,10 +23,12 @@
 const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
 const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM combo3[] = {KC_P, KC_QUOT, COMBO_END};
+const uint16_t PROGMEM combo4[] = {KC_X, KC_C, COMBO_END};
 combo_t key_combos[] = {
     COMBO(combo1, KC_LALT),
     COMBO(combo2, KC_LCTL),
     COMBO(combo3, KC_BSPC),
+    COMBO(combo4, KC_LGUI),
 };
 
 // This is the keymap itself, using the custom definitions

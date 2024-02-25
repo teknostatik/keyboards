@@ -26,10 +26,12 @@ enum planck_keycodes { QWERTY = SAFE_RANGE, COLEMAK, DVORAK, PLOVER, BACKLIT, EX
 const uint16_t PROGMEM combo1[] = {KC_COMM, KC_DOT, COMBO_END};
 const uint16_t PROGMEM combo2[] = {KC_K, KC_L, COMBO_END};
 const uint16_t PROGMEM combo3[] = {KC_P, KC_QUOT, COMBO_END};
+const uint16_t PROGMEM combo4[] = {KC_X, KC_C, COMBO_END};
 combo_t key_combos[] = {
     COMBO(combo1, KC_LALT),
     COMBO(combo2, KC_LCTL),
     COMBO(combo3, KC_BSPC),
+    COMBO(combo4, KC_LGUI),
 };
 
 // Then we add some definitions so that complicated keymaps can be expressed in fewer characters. 
