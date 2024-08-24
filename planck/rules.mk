@@ -5,3 +5,7 @@ COMBO_ENABLE = yes
 
 # bootloader selection
 # BOOTLOADER = qmk-hid
+
+ifeq ($(strip $(AUDIO_ENABLE)), yes)
+    SRC += muse.c
+endif
