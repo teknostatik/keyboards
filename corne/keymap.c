@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define KC_SPM2 LT(2, KC_SPC)
 #define KC_BSM1 LT(1, KC_BSPC)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
-#define KC_SBSL MT(MOD_LSFT, KC_NUBS)
+#define KC_SBSL MT(MOD_LALT, KC_NUBS)
 #define KC_ENM2 LT(2, KC_ENT)
 #define KC_TBM1 LT(1, KC_TAB)
 
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_SBSL,   KC_Z,   KC_X,   KC_C,    KC_V,  KC_B,                           KC_N,    KC_M,    KC_COMM, KC_DOT, KC_SLSH, KC_SHEN,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                          KC_ALTA, KC_TBM1, KC_BSPC,                           KC_SPC,  KC_ENM2,   KC_LCTL
+                          KC_LGUI, KC_TBM1, KC_BSPC,                           KC_SPC,  KC_ENM2,   KC_LCTL
                                       //`--------------------------'  `--------------------------'
 
 ),
