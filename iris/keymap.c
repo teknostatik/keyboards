@@ -22,7 +22,7 @@ ADJUST,
 #define KC_RCSD RCS(KC_DOWN)
 #define KC_SCV RCS(KC_V)
 #define KC_SESC MT(MOD_LCTL, KC_ESC)
-#define KC_SBSL MT(MOD_LSFT, KC_NUBS)
+#define KC_SBSL MT(MOD_LALT, KC_NUBS)
 #define KC_ENM2 LT(RAISE, KC_ENT)
 #define KC_TBM1 LT(LOWER, KC_TAB)
 
@@ -50,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_SESC, KC_A,    KC_S,    KC_D,    KC_F,    KC_G,                               KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     KC_LALT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_HOME,          KC_END,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_SHEN,
+     KC_SBSL, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,    KC_HOME,          KC_END,  KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_SHEN,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     KC_LGUI, KC_TBM1, KC_BSPC,                    KC_SPC,  KC_ENM2,   KC_LCTL
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
