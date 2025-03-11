@@ -8,7 +8,7 @@ This is what we need to build a Ferris Sweep:
 
 * [Sweep High PCB](https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20High). I get mine printed by [JLCPCB](https://jlcpcb.com/).
 * Two controllers and sockets. I have built these with a number of different controllers, but mostly the Pro-Micro to keep the cost down.
-* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense, but you will end up paying more for switches and keycaps. Choc v2 with blank keycaps may work out the most economical in the end.
+* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense.
 * 34 1U keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you.
 * 2 TRRS jacks (PJ-320A)
 * TRRS cable
@@ -44,6 +44,11 @@ If you get the message `Waiting for USB serial port - reset your controller now 
     qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-left
     qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-right
 
+### Elite-C
+
+    qmk flash -kb ferris/sweep -km vial --bootloader dfu-split-left
+    qmk flash -kb ferris/sweep -km vial --bootloader dfu-split-right
+
 Once you have done this then label the controllers so you are absolutely sure which is which.
 
 If QMK encounters errors it will let you know. Fix any errors before proceeding to the next step.
@@ -61,7 +66,7 @@ These steps will get us a PCB that we can test:
 
 Plug the keyboard into a computer, and short every single socket to test that the right key codes are sent. I use [QMK Configurator](https://config.qmk.fm/#/test) to test this.
 
-If anything is awry, fix it before soldering switches.
+If anything does not work, fix it before soldering switches.
 
 ## Soldering switches
 
