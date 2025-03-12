@@ -1,6 +1,6 @@
 # Ferris Sweep Build Guide
 
-The Ferris Sweep is a 34-key split board with an aggressive stagger. I have built a few of these, both for my own use and to sell.
+The Ferris Sweep is a 34-key split board with an aggressive stagger. I have built a few of these, both for my own use and for other people. 
 
 ## Parts list
 
@@ -77,4 +77,8 @@ Once the switches are soldered, repeat the same tests as before. If any switches
 ## Final touches
 
 Apply 5-6 rubber feet to the bottom of each half of the PCB, and then add keycaps. 
+
+## Alternatives
+
+I have used [the Mechboards Ferris Sweep](https://mechboards.co.uk/products/ferris-sweep-kit?variant=41437490577613) for a few builds, and it's great. All you need with this one is controllers, keycaps and switches. It's also got a functional case, and will work with the fancier cases that Mechboards sell.
 
