@@ -6,10 +6,10 @@ The Ferris Sweep is a 34-key split board with an aggressive stagger. I have buil
 
 This is what we need to build a Ferris Sweep:
 
-* [Sweep High PCB](https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20High). I get mine printed by [JLCPCB](https://jlcpcb.com/).
-* Two controllers and sockets. I have built these with a number of different controllers, but mostly the Pro-Micro to keep the cost down.
-* 34 switches (Choc v1 or v2, or MX). For this minimal build a low-profile switch makes a lot more sense.
-* 34 1U keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you.
+* [Sweep 2.2 PCB](https://github.com/davidphilipbarr/Sweep/tree/main/Sweep%20v2.2). I get mine printed by [JLCPCB](https://jlcpcb.com/).
+* Two controllers and sockets. I generally use Pro Micro RP2040 controllers for these builds.
+* 34 Choc v1 switches. 
+* 34 1U Choc v1 keycaps to match switches chosen. Blank keycaps will bring the cost down if they are an option for you.
 * 2 TRRS jacks (PJ-320A)
 * TRRS cable
 * Cable to match controllers chosen (almost certainly a USB-C cable)
@@ -27,10 +27,10 @@ Firstly test that your firmware compiles:
 
 Then flash each controller in turn:
 
-### Pro-Micro
+### Pro Micro RP2040
 
-    qmk flash -kb ferris/sweep -km vial --bootloader avrdude-split-left
-    qmk flash -kb ferris/sweep -km vial --bootloader avrdude-split-right
+    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=rp2040_ce --bootloader uf2-split-left
+    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=rp2040_ce --bootloader uf2-split-right
 
 If you get the message `Waiting for USB serial port - reset your controller now (Ctrl+C to cancel)` you will need to Short RST to GND quickly in order to flash the controller. 
 
@@ -39,10 +39,10 @@ If you get the message `Waiting for USB serial port - reset your controller now 
     qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=elite_pi --bootloader uf2-split-left
     qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=elite_pi --bootloader uf2-split-right
 
-### Frood
+### Frood (and other RP2040 controllers)
 
-    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-left
-    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=promicro_rp2040 --bootloader uf2-split-right
+    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=rp2040_ce --bootloader uf2-split-left
+    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=rp2040_ce --bootloader uf2-split-right
 
 ### Elite-C
 
