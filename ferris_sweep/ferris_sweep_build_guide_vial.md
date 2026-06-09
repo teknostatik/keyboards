@@ -36,7 +36,7 @@ If you get the message `Waiting for USB serial port - reset your controller now 
 
 ### Elite-Pi
 
-    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=elite_pi --bootloader uf2-split-left
+    qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=elite_pi --bootloader uf2-split-left   
     qmk flash -c -kb ferris/sweep -km vial -e CONVERT_TO=elite_pi --bootloader uf2-split-right
 
 ### Frood (and other RP2040 controllers)
